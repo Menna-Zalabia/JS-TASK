@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+    <head>
+        <title>javascript-Task</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!-- header -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light row">
+            <div class="container">
+            <a class="navbar-brand col" href="#"><img src="images/logo.png" alt="logo" width="60px" height="60px">MeoW</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto d-flex justify-content-center col">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">layouts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">contact</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 d-flex justify-content-end col" >
+                <input class="form-control mr-sm-2" style="color:#FFACAC; border:1px solid #FFACAC;"type="search" placeholder="Search" aria-label="Search">
+                <button class="btn my-2 my-sm-0" style="border:1px solid #FFACAC;" type="submit">Search</button>
+              </form>
+            </div>
+            </div>
+          </nav>
+    
+        <!-- SHOP -->
+        <div class="container p-3">
+            <h3 style="color:#FFACAC; text-shadow: 3px 2px 0px #FFD6D6;">Cat Supplies</h3>
+            <hr style="width: 20%;">
+            <div class="prodcut row">
+                <div class="item  col-xl-3  col-sm-12 mr-auto">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img class="card-img-top" src="images/pro1.jpg" alt="pro1" width="100px" height="250px">
+                        <div class="card-body">
+                          <h5 class="card-title">Cat Chow Kitten 1.5 kg</h5>
+                           <ul class="row text-warning d-flex justify-content-center">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star-half-alt"></i></li>
+                           </ul>
+                          <p class="card-text"><del class="text-muted">EGP 389.00</del></p>
+                          <p class="card-text text-warning"><strong>EGP 324.00</strong> </p>
+                          <button id="addToCart" class="btn border text-muted" name="Cat Chow Kitten 1.5 kg" price="324.00"><i class="fas fa-cart-plus pr-2 "></i>Add To Chart</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="item col-xl-3  col-sm-12 mr-auto">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img class="card-img-top" src="images/pro3.jpg" alt="pro1" width="100px" height="250px">
+                        <div class="card-body">
+                          <h5 class="card-title">Soft Silicone Bathroom</h5>
+                           <ul class="row text-warning d-flex justify-content-center">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star-half-alt"></i></li>
+                           </ul>
+                          <p class="card-text"><del class="text-muted">EGP 16.46</del></p>
+                          <p class="card-text text-warning"><strong>EGP 11.45 </strong></p>
+                          <button  id="addToCart" class="btn border text-muted" name="Soft Silicone Bathroom" price="11.45"><i class="fas fa-cart-plus pr-2 "></i>Add To Chart</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="item col-xl-3  col-sm-12 mr-4">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img class="card-img-top" src="images/pro2.jpg" alt="pro1" width="100px" height="250px">
+                        <div class="card-body">
+                          <h5 class="card-title">Cat bed 50x50x40 cm</h5>
+                           <ul class="row text-warning d-flex justify-content-center">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star-half-alt"></i></li>
+                           </ul>
+                          <p class="card-text"><del class="text-muted">EGP 700</del></p>
+                          <p class="card-text text-warning"><strong>EGP 560.00 </strong></p>
+                          <button id="addToCart" class="btn border text-muted" name="Cat bed" price="560.00"><i class="fas fa-cart-plus pr-2 "></i>Add To Chart</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="prodcut row">
+                <div class="item col-xl-3  col-sm-12 mr-auto">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img class="card-img-top" src="images/pro4.jpg" alt="pro1" width="100px" height="250px">
+                        <div class="card-body">
+                          <h5 class="card-title">Foam Dry Shampoo</h5>
+                           <ul class="row text-warning d-flex justify-content-center">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star-half-alt"></i></li>
+                           </ul>
+                          <p class="card-text"><del class="text-muted">EGP 115.00</del></p>
+                          <p class="card-text text-warning"><strong>EGP 92.45</strong> </p>
+                          <button id="addToCart" class="btn border text-muted"  name="Foam Dry Shampoo" price="92.45"><i class="fas fa-cart-plus pr-2 "></i>Add To Chart</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="item col-xl-3  col-sm-12 mr-auto">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img class="card-img-top" src="images/pro3.webp" alt="pro1" width="100px" height="250px">
+                        <div class="card-body">
+                          <h5 class="card-title">Necklace With a Bell</h5>
+                           <ul class="row text-warning d-flex justify-content-center">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star-half-alt"></i></li>
+                           </ul>
+                          <p class="card-text"><del class="text-muted">EGP 12.32</del></p>
+                          <p class="card-text text-warning"><strong>EGP 9.92 </strong></p>
+                          <button id="addToCart" class="btn border text-muted" name="Necklace With a Bell" price="9.92"><i class="fas fa-cart-plus pr-2 "></i>Add To Chart</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="item col-xl-3  col-sm-12 mr-4">
+                    <div class="card bg-light" style="width: 18rem;">
+                        <img class="card-img-top" src="images/pro5.webp" alt="pro1" width="100px" height="250px">
+                        <div class="card-body">
+                          <h5 class="card-title">Cat Scratching Ball</h5>
+                           <ul class="row text-warning d-flex justify-content-center">
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star"></i></li>
+                            <li><i class="fas fa-star-half-alt"></i></li>
+                           </ul>
+                          <p class="card-text"><del class="text-muted">EGP 35.00</del></p>
+                          <p class="card-text text-warning"><strong>EGP 27.00 </strong></p>
+                          <button id="addToCart" class="btn border text-muted" name="Cat Scratching Ball" price="27.00"><i class="fas fa-cart-plus pr-2 "></i>Add To Chart</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h3 style="color:#FFACAC; text-shadow: 3px 2px 0px #FFD6D6;">Your Products</h3>
+            <hr style="width: 20%;">
+            <div class="pro card d-flex justify-content-center p-3 bg-light">
+            </div>
+            <br>
+            <h3 style="color:#FFACAC; text-shadow: 3px 2px 0px #FFD6D6;">The Total Price</h3>
+            <hr style="width: 20%;">
+            <div class="content card d-flex justify-content-center p-3 bg-light">
+              
+            </div>
+            <br>
+            <button id="btn1" class="btn" style="background-color:#FFACAC; visibility: hidden;">confirm</button>
+            
+        </div>
+       
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

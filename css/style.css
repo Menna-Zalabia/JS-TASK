@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.prodcut{
+    text-align:center;
+}
+.prodcut .btn:hover{
+    background-color: #FFACAC;
+}
+ul{
+    list-style: none;
+}
